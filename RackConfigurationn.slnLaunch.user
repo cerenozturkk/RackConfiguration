@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Yeni Profil",
+    "Projects": [
+      {
+        "Path": "RackConfigurationn\\Server\\RackConfigurationn.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RackConfigurationn\\Client\\RackConfigurationn.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

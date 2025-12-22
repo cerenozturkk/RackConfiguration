@@ -1,0 +1,145 @@
+[
+  {
+    "ContainingType": "RackConfigurationn.Server.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "RackConfigurationn.Server.Controllers.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Server.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "RackConfigurationn.Shared.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Server.Controllers.DataController",
+    "Method": "GetDeckOptions",
+    "RelativePath": "api/Data/deck-options",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "depth",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Server.Controllers.DataController",
+    "Method": "GetDepthOptionsDapper",
+    "RelativePath": "api/Data/depth-options-dapper",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Controllers.PricingController",
+    "Method": "CalculatePrice",
+    "RelativePath": "api/Pricing/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rackDraft",
+        "Type": "RackConfigurationn.Shared.Models.Rack",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Controllers.RackController",
+    "Method": "CreateRack",
+    "RelativePath": "api/Rack",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rack",
+        "Type": "RackConfigurationn.Shared.Models.Rack",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Controllers.RackController",
+    "Method": "GetRack",
+    "RelativePath": "api/Rack/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Controllers.RackController",
+    "Method": "UpdateRack",
+    "RelativePath": "api/Rack/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedrack",
+        "Type": "RackConfigurationn.Shared.Models.Rack",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RackConfigurationn.Controllers.RackController",
+    "Method": "DeleteRack",
+    "RelativePath": "api/Rack/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

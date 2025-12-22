@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C67C06-5F69-4B46-B6CA-B61D82EC68AE}|RackConfigurationn\\Client\\RackConfigurationn.Client.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1C67C06-5F69-4B46-B6CA-B61D82EC68AE}|RackConfigurationn\\Client\\RackConfigurationn.Client.csproj|solutionrelative:rackconfigurationn\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABB51C6-DB9C-4523-B730-F587DFE8A9A7}|RackConfigurationn\\Server\\RackConfigurationn.Server.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABB51C6-DB9C-4523-B730-F587DFE8A9A7}|RackConfigurationn\\Server\\RackConfigurationn.Server.csproj|solutionrelative:rackconfigurationn\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C67C06-5F69-4B46-B6CA-B61D82EC68AE}|RackConfigurationn\\Client\\RackConfigurationn.Client.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C67C06-5F69-4B46-B6CA-B61D82EC68AE}|RackConfigurationn\\Client\\RackConfigurationn.Client.csproj|solutionrelative:rackconfigurationn\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABB51C6-DB9C-4523-B730-F587DFE8A9A7}|RackConfigurationn\\Server\\RackConfigurationn.Server.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\server\\repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABB51C6-DB9C-4523-B730-F587DFE8A9A7}|RackConfigurationn\\Server\\RackConfigurationn.Server.csproj|solutionrelative:rackconfigurationn\\server\\repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABB51C6-DB9C-4523-B730-F587DFE8A9A7}|RackConfigurationn\\Server\\RackConfigurationn.Server.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABB51C6-DB9C-4523-B730-F587DFE8A9A7}|RackConfigurationn\\Server\\RackConfigurationn.Server.csproj|solutionrelative:rackconfigurationn\\server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92524DB8-F66B-443F-983E-1549CCD64013}|RackConfigurationn\\Shared\\RackConfigurationn.Shared.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92524DB8-F66B-443F-983E-1549CCD64013}|RackConfigurationn\\Shared\\RackConfigurationn.Shared.csproj|solutionrelative:rackconfigurationn\\shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C67C06-5F69-4B46-B6CA-B61D82EC68AE}|RackConfigurationn\\Client\\RackConfigurationn.Client.csproj|c:\\users\\ceren \u00F6zt\u00FCrk\\desktop\\asp.net core\\rackconfigurationn\\rackconfigurationn\\client\\pages\\configurator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1C67C06-5F69-4B46-B6CA-B61D82EC68AE}|RackConfigurationn\\Client\\RackConfigurationn.Client.csproj|solutionrelative:rackconfigurationn\\client\\pages\\configurator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Client\\Program.cs",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Client\\Program.cs",
+              "RelativeToolTip": "RackConfigurationn\\Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:24:27.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Server\\Program.cs",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Server\\Program.cs",
+              "RelativeToolTip": "RackConfigurationn\\Server\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:16:12.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Client\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Client\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Client\\Pages\\Index.razor",
+              "RelativeToolTip": "RackConfigurationn\\Client\\Pages\\Index.razor",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAiwAUBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T12:45:57.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Server\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "RackConfigurationn\\Server\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvzEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:28:13.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Shared\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Shared\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Shared\\Models\\User.cs",
+              "RelativeToolTip": "RackConfigurationn\\Shared\\Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T12:05:05.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Server\\Repositories\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Server\\Repositories\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Server\\Repositories\\RepositoryContext.cs",
+              "RelativeToolTip": "RackConfigurationn\\Server\\Repositories\\RepositoryContext.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T12:18:56.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Configurator.razor",
+              "DocumentMoniker": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Client\\Pages\\Configurator.razor",
+              "RelativeDocumentMoniker": "RackConfigurationn\\Client\\Pages\\Configurator.razor",
+              "ToolTip": "C:\\Users\\ceren \u00F6zt\u00FCrk\\Desktop\\ASP.NET CORE\\RackConfigurationn\\RackConfigurationn\\Client\\Pages\\Configurator.razor",
+              "RelativeToolTip": "RackConfigurationn\\Client\\Pages\\Configurator.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T09:31:15.85Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

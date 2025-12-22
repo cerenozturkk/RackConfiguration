@@ -1,0 +1,155 @@
+﻿@page "/"
+@using RackConfigurationn.Shared.Models
+@using System.Net.Http.Json
+@inject HttpClient Http
+@inject NavigationManager Navigation
+
+<div class="auth-container min-h-screen flex items-center justify-center p-4">
+    <div class="auth-card w-full max-w-md p-8 rounded-3xl shadow-2xl">
+        
+        <!-- Logo ve Başlık -->
+        <div class="text-center mb-10">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-2xl mb-4 shadow-lg shadow-blue-900/20">
+                <i class="fas fa-warehouse text-2xl text-white"></i>
+            </div>
+            <h1 class="text-3xl font-bold tracking-tight text-white">Rack <span class="text-blue-500">Configurator</span></h1>
+            <p class="text-slate-400 mt-2">@(isLoginMode ? "Hesabınıza giriş yapın" : "Yeni bir hesap oluşturun")</p>
+        </div>
+
+        @if (isLoginMode)
+        {
+            <!-- GİRİŞ FORMU -->
+            <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+                <DataAnnotationsValidator />
+                <div class="space-y-4">
+                    <div>
+                        <input type="email" @bind-value="loginModel.Email" placeholder="E-posta" 
+                               class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 outline-none transition-all" />
+                    </div>
+                    <div>
+                        <input type="password" @bind-value="loginModel.Password" placeholder="Şifre" 
+                               class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 outline-none transition-all" />
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0">
+                        Giriş Yap
+                    </button>
+                </div>
+            </EditForm>
+        }
+        else
+        {
+            <!-- KAYIT FORMU -->
+            <EditForm Model="registerModel" OnValidSubmit="HandleRegister">
+                <DataAnnotationsValidator />
+                <div class="space-y-3">
+                    <div class="grid grid-cols-2 gap-3">
+                        <input type="text" @bind-value="registerModel.FirstName" placeholder="Ad" 
+                               class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-blue-500 outline-none" />
+                        <input type="text" @bind-value="registerModel.LastName" placeholder="Soyad" 
+                               class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-blue-500 outline-none" />
+                    </div>
+                    <input type="text" @bind-value="registerModel.Username" placeholder="Kullanıcı Adı" 
+                           class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-blue-500 outline-none" />
+                    <input type="email" @bind-value="registerModel.Email" placeholder="E-posta" 
+                           class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-blue-500 outline-none" />
+                    <input type="password" @bind-value="registerModel.Password" placeholder="Şifre" 
+                           class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-white focus:border-blue-500 outline-none" />
+                    <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3.5 rounded-xl shadow-lg transition-all mt-2">
+                        Kayıt Ol
+                    </button>
+                </div>
+            </EditForm>
+        }
+
+        <!-- Bilgilendirme ve Geçiş -->
+        @if (!string.IsNullOrEmpty(statusMessage))
+        {
+            <div class="mt-4 p-3 rounded-xl text-center text-sm @(isSuccess ? "bg-green-500/10 text-green-400" : "bg-red-500/10 text-red-400") animate-pulse">
+                @statusMessage
+            </div>
+        }
+
+        <div class="mt-8 text-center text-sm text-slate-500">
+            <span>@(isLoginMode ? "Henüz bir hesabınız yok mu?" : "Zaten üye misiniz?")</span>
+            <button @onclick="ToggleMode" class="text-blue-500 font-bold hover:underline ml-1">
+                @(isLoginMode ? "Kayıt Ol" : "Giriş Yap")
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+    .auth-container {
+        background-color: #0f172a; /* Ana Koyu Renk */
+    }
+    .auth-card {
+        background-color: #1e293b; /* Kart Rengi */
+        border: 1px solid #334155;
+    }
+    input::placeholder {
+        color: #475569;
+    }
+</style>
+
+@code {
+    private bool isLoginMode = true;
+    private string statusMessage = "";
+    private bool isSuccess = false;
+
+    private LoginRequest loginModel = new();
+    private User registerModel = new();
+
+    private void ToggleMode()
+    {
+        isLoginMode = !isLoginMode;
+        statusMessage = "";
+    }
+
+    private async Task HandleLogin()
+    {
+        statusMessage = "Kontrol ediliyor...";
+        isSuccess = true;
+
+        var response = await Http.PostAsJsonAsync("api/Account/login", loginModel);
+        if (response.IsSuccessStatusCode)
+        {
+            statusMessage = "Giriş Başarılı! Yönlendiriliyorsunuz...";
+            isSuccess = true;
+            // Burada login sonrası yönlendirme yapılabilir (Örn: Dashboard)
+            await Task.Delay(1000);
+            Navigation.NavigateTo("/configurator"); 
+        }
+        else
+        {
+            statusMessage = "E-posta veya şifre hatalı!";
+            isSuccess = false;
+        }
+    }
+
+    private async Task HandleRegister()
+    {
+        statusMessage = "Kaydediliyor...";
+        isSuccess = true;
+
+        var response = await Http.PostAsJsonAsync("api/Account/register", registerModel);
+        if (response.IsSuccessStatusCode)
+        {
+            statusMessage = "Kayıt Başarılı! Giriş yapabilirsiniz.";
+            isSuccess = true;
+            await Task.Delay(1500);
+            isLoginMode = true; // Kayıt sonrası giriş moduna geç
+            statusMessage = "Lütfen yeni bilgilerinizle giriş yapın.";
+        }
+        else
+        {
+            statusMessage = "Kayıt sırasında bir hata oluştu!";
+            isSuccess = false;
+        }
+    }
+
+    public class LoginRequest
+    {
+        public string Email { get; set; } = "";
+        public string Password { get; set; } = "";
+    }
+}

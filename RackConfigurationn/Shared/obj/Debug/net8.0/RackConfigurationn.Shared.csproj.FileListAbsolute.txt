@@ -1,0 +1,11 @@
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\bin\Debug\net8.0\RackConfigurationn.Shared.deps.json
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\bin\Debug\net8.0\RackConfigurationn.Shared.dll
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\bin\Debug\net8.0\RackConfigurationn.Shared.pdb
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\RackConfigurationn.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\RackConfigurationn.Shared.AssemblyInfoInputs.cache
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\RackConfigurationn.Shared.AssemblyInfo.cs
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\RackConfigurationn.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\RackConfigurationn.Shared.dll
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\refint\RackConfigurationn.Shared.dll
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\RackConfigurationn.Shared.pdb
+C:\Users\ceren öztürk\Desktop\ASP.NET CORE\RackConfigurationn\RackConfigurationn\Shared\obj\Debug\net8.0\ref\RackConfigurationn.Shared.dll

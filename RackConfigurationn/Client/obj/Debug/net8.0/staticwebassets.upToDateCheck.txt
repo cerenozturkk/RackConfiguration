@@ -1,0 +1,10 @@
+wwwroot\css\app.css
+wwwroot\icon-512.png
+wwwroot\imagesdecktypes\galvaniseddeck.jpg
+wwwroot\imagesdecktypes\inclineddeck.jpg
+wwwroot\imagesdecktypes\multiplexdeck.jpg
+wwwroot\imagesdecktypes\steeldeck.jpg
+wwwroot\imagesdecktypes\withoutlayers.jpg
+wwwroot\imagesdecktypes\woodendeck.jpg
+wwwroot\index.html
+wwwroot\manifest.json
