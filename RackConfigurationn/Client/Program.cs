@@ -10,7 +10,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-// --- KRÝTÝK DÜZELTME: HttpClient Kaydý ---
+
 
 // Blazor WASM'da BaseAddress'i ayarlý olan HttpClient'ý DI'a kaydetmenin standart yolu.
 // Bu, RackService constructor'ýna otomatik olarak enjekte edilir.
